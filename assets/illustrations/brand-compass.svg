@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none" role="img" aria-label="Saudi date palm tree">
+  <defs>
+    <linearGradient id="leaf" x1="32" y1="28" x2="128" y2="99" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17805F"/>
+      <stop offset="1" stop-color="#003D34"/>
+    </linearGradient>
+    <linearGradient id="trunk" x1="69" y1="74" x2="94" y2="133" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A86A29"/>
+      <stop offset=".55" stop-color="#754719"/>
+      <stop offset="1" stop-color="#49280E"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="42" y1="125" x2="118" y2="143" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4D68E"/>
+      <stop offset=".52" stop-color="#B77B2E"/>
+      <stop offset="1" stop-color="#81501A"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="80" cy="80" r="73" fill="#FFF8E8"/>
+  <circle cx="80" cy="80" r="70" stroke="url(#gold)" stroke-width="3"/>
+
+  <!-- Crown silhouette follows the reference: a compact center and layered feather fronds. -->
+  <g fill="url(#leaf)">
+    <path d="M78 60C72 42 63 29 51 23c16-1 27 8 31 26l2 12Z"/>
+    <path d="M80 60C83 41 91 27 105 21c-4 17-12 29-24 40Z"/>
+    <path d="M79 62C61 48 45 44 28 49c10 14 26 20 48 17Z"/>
+    <path d="M81 62c18-15 35-18 51-9-12 11-28 15-49 11Z"/>
+    <path d="M79 64C59 57 42 59 27 71c5 13 13 22 23 29-2-16 8-27 29-36Z"/>
+    <path d="M81 64c20-7 38-5 52 7-4 14-13 24-23 30 1-17-9-29-29-37Z"/>
+    <path d="M80 66C65 68 54 76 49 90c3 11 9 20 17 27 0-20 5-36 14-51Z"/>
+    <path d="M80 66c15 2 26 10 31 24-3 11-9 20-17 27 0-20-5-36-14-51Z"/>
+  </g>
+
+  <!-- Fine pale leaflets communicate the feathered date-palm fronds at header scale. -->
+  <g stroke="#B4D9BD" stroke-width="1.35" stroke-linecap="round" opacity=".92">
+    <path d="M78 59 61 36M77 55 57 44M76 57 48 52M75 60 42 60M74 63 38 72M72 67 44 80M72 72 52 88M74 74 59 99"/>
+    <path d="M82 59l17-25M83 55l20-11M84 57l28-5M85 60l34 0M86 63l36 10M88 67l28 13M88 72l20 16M86 74l13 25"/>
+  </g>
+  <g stroke="#075443" stroke-width="2.4" stroke-linecap="round">
+    <path d="M80 65C72 48 65 34 54 26M80 65c8-17 15-31 26-40M80 65C63 53 47 50 31 51M80 65c17-12 33-15 48-10M80 66C62 61 46 65 31 75M80 66c18-5 34-1 49 9M80 67C68 75 61 88 63 109M80 67c12 8 19 21 17 42"/>
+  </g>
+  <circle cx="80" cy="65" r="6" fill="#6B3C14" stroke="#F4D68E" stroke-width="1.4"/>
+
+  <!-- Tall tapered trunk with the offset, segmented profile of the reference. -->
+  <path d="M76 70c3 13 1 27-3 42l-7 21 24 2-4-22c-4-18-5-31-2-43Z" fill="url(#trunk)"/>
+  <path d="M76 81 85 84M74 92l11 3M72 104l12 3M69 116l14 3M67 128l19 2" stroke="#E5B86E" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Low splayed roots retain the original gold-baseline identity. -->
+  <path d="M77 130c-9 1-20 5-30 13 14-3 24-2 33 2 8-5 18-6 33-2-11-8-22-12-31-13Z" fill="#56300F"/>
+  <path d="M53 142c9-8 18-10 27-5 9-5 18-3 27 5" stroke="#B77B2E" stroke-width="2" stroke-linecap="round"/>
+  <path d="M43 146h74" stroke="url(#gold)" stroke-width="6" stroke-linecap="round"/>
+</svg>

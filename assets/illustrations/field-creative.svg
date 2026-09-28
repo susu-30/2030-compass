@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" fill="none">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F2BE79"/><stop offset=".5" stop-color="#E99B65"/><stop offset="1" stop-color="#4E7274"/></linearGradient><pattern id="brick" width="34" height="24" patternUnits="userSpaceOnUse"><path d="M0 0h34v24H0zM0 12h34M17 0v12M0 12l17 12M34 12 17 24" stroke="#7A4824" stroke-width="2" opacity=".45"/></pattern></defs>
+<rect width="640" height="400" fill="url(#sky)"/><circle cx="468" cy="78" r="48" fill="#FFF2C8"/>
+<path d="M0 286c103-64 184-23 294-51 114-28 205-12 346-93v258H0Z" fill="#C9793D"/>
+<path d="M343 282V148c0-57 48-100 107-100s108 43 108 100v134" fill="#9A5B2A"/><path d="M343 282V148c0-57 48-100 107-100s108 43 108 100v134" fill="url(#brick)"/><path d="M373 282v-108c0-43 34-73 77-73s77 30 77 73v108" fill="#193F3D"/><path d="M396 282v-94c0-31 24-52 54-52s54 21 54 52v94" fill="#F5C97E"/>
+<g fill="#F6E8C6"><path d="M82 281h142v-89H82z"/><path d="M96 267V205h114v62z"/></g><path d="M96 205h114v62H96z" fill="url(#brick)"/><path d="m131 245 25-25 18 18 28-29" stroke="#F7E5BC" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M0 337c133-31 207 16 322-7s193-10 318-51" stroke="#F8D68E" stroke-width="4"/>
+<g stroke="#164B40" stroke-width="10" stroke-linecap="round"><path d="M280 305v-65M280 250c-23-7-40-25-47-47 29 0 47 15 47 38M280 254c22-9 36-25 42-47-26 1-41 14-42 37"/></g>
+</svg>

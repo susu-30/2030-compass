@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#9FD6E2"/><stop offset=".43" stop-color="#F9D7A0"/><stop offset="1" stop-color="#FFF4DF"/></linearGradient>
+    <linearGradient id="sand" x1="170" y1="408" x2="1370" y2="668" gradientUnits="userSpaceOnUse"><stop stop-color="#F7E7C4"/><stop offset=".54" stop-color="#D99B4E"/><stop offset="1" stop-color="#8B5427"/></linearGradient>
+    <linearGradient id="tower" x1="0" y1="114" x2="0" y2="609"><stop stop-color="#316F83"/><stop offset="1" stop-color="#073E3B"/></linearGradient>
+    <linearGradient id="arch" x1="1150" y1="18" x2="1475" y2="560" gradientUnits="userSpaceOnUse"><stop stop-color="#F8DEAA"/><stop offset=".55" stop-color="#C78943"/><stop offset="1" stop-color="#815020"/></linearGradient>
+    <pattern id="mashrabiya" width="34" height="34" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 17h34M17 0v34" stroke="#82521E" stroke-width="2" opacity=".46"/><rect x="10" y="10" width="14" height="14" rx="2" stroke="#FFE8B5" stroke-width="1.5" opacity=".6"/></pattern>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%"><feGaussianBlur stdDeviation="10" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="286" cy="170" r="86" fill="#FFF4CA" opacity=".93" filter="url(#glow)"/>
+  <path d="M0 470c165-87 292-78 424-10 162 83 281 15 399-37 125-55 224-64 349 7 145 82 246 29 428-84v396H0Z" fill="url(#sand)" opacity=".85"/>
+  <path d="M0 559c212-105 355 18 541-74 167-82 305-34 450 13 143 47 289 21 609-128v246H0Z" fill="#F5DAA8" opacity=".74"/>
+  <path d="M0 624c193-83 326-61 506-20 204 47 324-5 462-58 156-60 308-25 632-105v185H0Z" fill="#BD7A38" opacity=".36"/>
+  <g fill="url(#tower)">
+    <path d="M458 620h48V397h-48zM519 620h39V448h-39zM573 620h59V321h-59zM650 620h44V402h-44zM706 620h66V254h-66zM790 620h50V359h-50zM856 620h54V303h-54zM927 620h38V406h-38zM979 620h52V335h-52zM1052 620h34V429h-34z"/>
+    <path d="M729 254h10l10-64 10 64h12v366h-42z" fill="#0A5050"/>
+    <path d="M868 303h8l11-43 9 43h11v317h-39z" fill="#154F51"/>
+  </g>
+  <g stroke="#F4D58E" stroke-width="4" opacity=".83"><path d="M469 421h25M469 449h25M584 347h35M584 380h35M716 292h43M716 329h43M864 332h34M995 365h27M1060 459h18"/></g>
+  <g opacity=".72"><path d="M1115 0c198 107 324 284 404 568" stroke="url(#arch)" stroke-width="152"/><path d="M1115 0c198 107 324 284 404 568" stroke="#FFF2D0" stroke-width="6" opacity=".68"/><path d="M1196 0c130 102 217 235 278 426" stroke="url(#mashrabiya)" stroke-width="67" opacity=".95"/></g>
+  <path d="M0 682c244-75 408-4 606 49 240 64 499 50 994-70v239H0Z" fill="#003F35"/>
+  <path d="M0 741c235-56 384-10 598 36 280 61 581 36 1002-73" stroke="#DAB066" stroke-width="5" opacity=".9"/>
+  <path d="M0 778c263-48 458 24 675 52 231 29 536 1 925-80" stroke="#F8E7BD" stroke-width="2.5" opacity=".66"/>
+  <g stroke="#0A4B40" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M152 686V539" stroke-width="15"/><path d="M152 554c-40-15-73-48-85-84 54-1 85 26 85 63M152 562c39-18 70-50 81-88-49 2-79 31-81 72" stroke-width="13"/>
+    <path d="M1282 702V577" stroke-width="14"/><path d="M1282 592c-38-10-64-37-74-70 45 0 73 22 74 55M1282 599c34-13 58-38 68-68-40 1-64 22-68 54" stroke-width="12"/>
+    <path d="M301 692V598" stroke-width="10"/><path d="M301 609c-26-10-45-30-52-55 33 1 52 17 52 41M301 616c25-9 41-27 48-50-29 1-46 16-48 38" stroke-width="9"/>
+  </g>
+  <path d="M0 614c212-59 431-15 632 36 252 65 574 42 968-60" stroke="#FFF8E9" stroke-width="11" opacity=".82"/>
+</svg>
