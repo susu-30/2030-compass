@@ -1,0 +1,14 @@
+Example quiz answers (made-up)
+
+Question 1: Creating a new idea, product, or experience
+Question 2: A digital innovation hub
+Question 3: A more connected digital world
+Question 4: I imagine fresh possibilities
+Question 5: How AI can improve everyday life
+Question 6: The idea generator
+Question 7: Developing a health innovation
+Question 8: A breakthrough that changes what is possible
+Question 9: Art, design, culture, and media
+Question 10: Innovation that makes life healthier
+
+Expected example result: Technology & Digital is the top field, with a personalized hybrid path and a downloadable 2030 Passport result card.

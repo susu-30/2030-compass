@@ -1,3 +1,22 @@
 .claude/
 setup-log.txt
+.env
+.env.*
+!.env.example
+node_modules/
+venv/
+.venv/
+__pycache__/
 .DS_Store
+
+# Original high-resolution reference screenshots are preserved locally only.
+assets/all-fields.png
+assets/fields.png
+assets/hero-home.png
+assets/hyprid-path.png
+assets/passport.png
+assets/quiz-start.png
+assets/quiz.png
+assets/top-results.png
+assets/vision.png
+assets/your-path.png
